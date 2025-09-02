@@ -7,6 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 40px 0;
+  height: 100dvh;
 }
 
 header {
@@ -25,6 +26,7 @@ header {
 
 .border-bottom {
   border-radius: 0 0 12px 12px;
+  margin-bottom: 40px;
 }
 
 .title-header {
@@ -110,4 +112,48 @@ footer {
 
 .footer-text a {
   color: #74638f;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .center-content img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-text h1,
+  .container h1,
+  .text {
+    font-size: 15px;
+    display: flex;
+  }
+
+  .title-text-section ul,
+  .text-content,
+  .section-cite,
+  .footer-text h1 {
+    font-size: 10px;
+  }
+
+  .title-text-section {
+    width: 300px;
+  }
+
+  .section-cite {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
