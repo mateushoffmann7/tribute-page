@@ -1,7 +1,7 @@
 ##Tribute Page
 
 Este projeto é uma **tribute page** criada como exercício de prática em **HTML** e **CSS**.  
-O objetivo foi treinar **estruturação de páginas web** e o uso de **flexbox** para posicionamento e responsividade.
+O objetivo aprimorar a **estruturação de páginas** web e o uso de **flexbox** para posicionamento e responsividade.
 
 ---
 
