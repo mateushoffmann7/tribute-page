@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  background-color: #ccc;
+}
+
+.border-top {
+  border-radius: 12px 12px 0 0;
+}
+
+.border-bottom {
+  border-radius: 0 0 12px 12px;
+}
+
+.title-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-text h1 {
+  font-size: 55px;
+  margin: 60px 0 30px 0;
+}
+
+.text {
+  font-size: 24px;
+  margin: 0 0 24px 0;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.center-content img {
+  height: auto;
+  width: 1500px;
+  border-radius: 20px;
+}
+
+.text-content {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-section h1 {
+  font-size: 30px;
+  margin: 55px;
+}
+
+.title-text-section {
+  width: 800px;
+}
+
+.title-text-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 22px;
+}
+
+.section-cite {
+  width: 820px;
+  font-size: 22px;
+  margin: 70px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.footer-text a {
+  color: #74638f;
+}
